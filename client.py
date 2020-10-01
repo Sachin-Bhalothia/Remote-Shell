@@ -27,9 +27,9 @@ def comute():
 				r = str(s.recv(1024).decode('utf-8'))
 				print(r)	
 		else:
-			print('Error : Password error')
+			print('Error : Password error , Enter Correct Password')
 	else:
-		print('Error : Hostname error')
+		print('Error : Hostname error , Enter Correct Hostname')
 if __name__ == '__main__':
 	init()
 	comute()
